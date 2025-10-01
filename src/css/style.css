@@ -1,0 +1,151 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos Gerais */
+body {
+    font-family: Arial;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #8b1538;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #f4e4c1;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #a91d3a;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+header hr {
+    border: 2px solid #6b0f29;
+    margin: 12px 0;
+}
+
+/* Conteúdo Principal */
+main {
+    background-color: #8b1538;
+    padding: 0;
+}
+
+main section {
+    padding: 40px 40px 30px 40px;
+    text-align: center;
+}
+
+main section h3 {
+    font-size: 42px;
+    color: #f4e4c1;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+main section p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+main section img {
+    display: block;
+    width: 600px;
+    height: 400px;
+    border: 5px solid #f4e4c1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main section hr {
+    border: 2px solid #6b0f29;
+    margin: 20px 0;
+}
+
+/* Navegação */
+nav {
+    background-color: #1a1a1a;
+    padding: 40px 30px;
+    text-align: center;
+}
+
+nav h4 {
+    font-size: 26px;
+    color: #f4e4c1;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 18px 35px;
+    background-color: #8b1538;
+    border: 3px solid #f4e4c1;
+    border-radius: 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav hr {
+    border: 2px solid #444444;
+    margin-top: 30px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #8b1538;
+    padding: 30px;
+    text-align: center;
+    border-top: 3px solid #f4e4c1;
+}
+
+footer p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer a {
+    color: #f4e4c1;
+    text-decoration: none;
+    font-weight: bold;
+}
