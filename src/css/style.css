@@ -265,3 +265,14 @@ iframe {
   margin: 20px 0;
 }
 nav a:hover, footer a:hover { text-decoration: underline; }
+
+/* link externo para o site da fiap  */
+
+.Fiap {
+  color: #d4af37;          
+  font-size: 18px;    
+  padding: 8px 12px;     
+   font-weight: bold;   
+  text-decoration: none;
+  border: 2px solid #d4af37; 
+}
