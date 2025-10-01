@@ -264,3 +264,4 @@ iframe {
   border: 3px solid #d4af37;
   margin: 20px 0;
 }
+nav a:hover, footer a:hover { text-decoration: underline; }
