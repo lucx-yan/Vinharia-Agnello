@@ -1,6 +1,4 @@
-/* ========================================
-   RESET E ESTILOS GLOBAIS
-   ======================================== */
+/* RESET E ESTILOS GLOBAIS */
 
 * {
     margin: 0;
@@ -14,9 +12,7 @@ body {
     padding: 20px;
 }
 
-/* ========================================
-   HEADER - CABEÇALHO
-   ======================================== */
+/* HEADER - CABEÇALHO */
 
 header {
     background-color: #5d1a1a;
@@ -50,9 +46,7 @@ header hr {
     margin: 15px 0;
 }
 
-/* ========================================
-   MAIN - CONTEÚDO PRINCIPAL
-   ======================================== */
+/* MAIN - CONTEÚDO PRINCIPAL */
 
 main {
     background-color: #ffffff;
@@ -96,9 +90,7 @@ main hr {
     margin: 25px 0;
 }
 
-/* ========================================
-   SEÇÕES
-   ======================================== */
+/* SEÇÕES */
 
 section {
     margin: 30px 0;
@@ -118,9 +110,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* ========================================
-   LISTAS
-   ======================================== */
+/* LISTAS */
 
 ul {
     margin: 15px 0 15px 40px;
@@ -132,9 +122,7 @@ li {
     color: #3c2010;
 }
 
-/* ========================================
-   LINKS DE NAVEGAÇÃO
-   ======================================== */
+/* LINKS DE NAVEGAÇÃO */
 
 nav {
     background-color: #faf8f3;
@@ -165,9 +153,7 @@ nav a {
     font-weight: 600;
 }
 
-/* ========================================
-   FOOTER - RODAPÉ
-   ======================================== */
+/* FOOTER - RODAPÉ */
 
 footer {
     background-color: #5d1a1a;
@@ -191,9 +177,7 @@ footer hr {
     margin: 10px 0;
 }
 
-/* ========================================
-   TABELA DE PRODUTOS
-   ======================================== */
+/* TABELA DE PRODUTOS */
 
 table {
     width: 100%;
@@ -218,9 +202,7 @@ td {
     border: 4px solid #d4af37;
 }
 
-/* ========================================
-   FORMULÁRIO DE CONTATO
-   ======================================== */
+/* FORMULÁRIO DE CONTATO */
 
 form {
     background-color: #faf8f3;
@@ -274,9 +256,7 @@ button {
     border: 2px solid #d4af37;
 }
 
-/* ========================================
-   IFRAME (MAPA E VÍDEOS)
-   ======================================== */
+ /*  IFRAME (MAPA E VÍDEOS) */
 
 iframe {
     width: 100%;
