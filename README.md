@@ -54,10 +54,10 @@ Disponibiliza um formulário para o visitante enviar mensagens com campos de nom
 
 ## 👥 Equipe de Desenvolvimento
 
-- **João Victor**
-- **Gustavo Macedo**
-- **Gustavo Hiruo**
-- **Yan Lucas**
+- **João Victor (RM: 566640)**
+- **Gustavo Macedo (RM: 567594)**
+- **Gustavo Hiruo (RM: 567625)**
+- **Yan Lucas (RM: 567046)**
 
 ## 📝 Licença
 
