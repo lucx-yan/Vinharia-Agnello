@@ -264,9 +264,20 @@ iframe {
   border: 3px solid #d4af37;
   margin: 20px 0;
 }
+
+/* SUBLINHADO DOS LINKS */
 nav a:hover, footer a:hover { text-decoration: underline; }
 
-/* link externo para o site da fiap  */
+/* BANNER DA PÁGINA CONTATO */
+.banner {
+  width: 100%;
+  height: auto;     
+  display: block;   
+  margin: 0 0 20px;
+  border: 0;
+}
+
+/* LINK EXTERNO PARA O SITE DA FIAP  */
 
 .Fiap {
   color: #d4af37;          
