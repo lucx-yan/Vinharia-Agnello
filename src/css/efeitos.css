@@ -20,6 +20,12 @@ textarea:focus{
 
 /* comentei porque estava sendo aplicado no banner da página contato também (corrigir depois) */
 
-/* img:hover{
+img.vinho:hover{
     width: 42%;
-} */
+    transition: all 0.5s ease;
+} 
+
+img.gal:hover{
+    width: 42%;
+    transition: all 0.5s ease;
+} 
