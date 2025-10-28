@@ -1,3 +1,7 @@
+/* IMPORTAÇÃO EFEITOS VISUAIS */
+
+@import url(efeitos.css);
+
 /* RESET E ESTILOS GLOBAIS */
 
 * {
@@ -287,7 +291,3 @@ nav a:hover, footer a:hover { text-decoration: underline; }
   text-decoration: none;
   border: 2px solid #d4af37; 
 }
-
-/* IMPORTAÇÃO EFEITOS VISUAIS */
-
-@import url(efeitos.css);
