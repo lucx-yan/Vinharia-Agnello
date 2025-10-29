@@ -86,3 +86,43 @@ header h1 {
 button:hover {
     animation: pulsar 1s infinite;
 }
+
+/* ========================================
+    TRANSFORMAÇÕES CSS
+   ======================================== */
+
+/* TRANSFORMAÇÃO 1: SCALE nas imagens de produtos*/
+img.vinho {
+    transition: transform 0.5s ease;
+}
+
+img.vinho:hover {
+    transform: scale(1.1);
+}
+
+/* TRANSFORMAÇÃO 2: SCALE nas imagens da galeria*/
+img.gal {
+    transition: transform 0.5s ease;
+}
+
+img.gal:hover {
+    transform: scale(1.15);
+}
+
+/* TRANSFORMAÇÃO 3: TRANSLATE nos itens do menu*/
+nav li {
+    transition: transform 0.3s ease;
+}
+
+nav li:hover {
+    transform: translateX(10px);
+}
+
+/* TRANSFORMAÇÃO 4: SCALE nos botões*/
+button {
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
