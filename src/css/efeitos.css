@@ -29,3 +29,17 @@ img.gal:hover{
     width: 42%;
     transition: all 0.5s ease;
 } 
+
+/* selection nos textos para selecionar e mudar a cor  */
+p::selection {
+
+    color: #d4af37;
+    background: #5d1a1a;
+
+}
+/* adiciona cor aos marcadores da lista  */
+::marker {
+
+    color: #d4af37;
+    font-size: 22px;
+}
