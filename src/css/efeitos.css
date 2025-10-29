@@ -1,5 +1,6 @@
-/* HOVER EM CADA LINK DE NAVEGAÇÃO */
-
+/* ----------------------------------------
+   HOVER NOS LINKS DE NAVEGAÇÃO
+---------------------------------------- */
 nav a:hover {
     color: #5d1a1a;
     background-color: rgba(212, 175, 55, 0.3);
@@ -7,6 +8,9 @@ nav a:hover {
     border-radius: 5px;
 }
 
+/* ----------------------------------------
+   FOCUS EM CAMPOS DE FORMULÁRIO
+---------------------------------------- */
 input:focus,
 textarea:focus {
     outline: none;
@@ -16,8 +20,9 @@ textarea:focus {
     transform: scale(1.02);
 }
 
-/* first-child no primeiro item do nav */
-
+/* ----------------------------------------
+   FIRST-CHILD NO PRIMEIRO ITEM DO MENU
+---------------------------------------- */
 nav ul li:first-child {
     font-weight: bold;
 }
@@ -28,43 +33,44 @@ nav ul li:first-child a {
     padding-left: 12px;
 }
 
-/* FOCUS NOS INPUTS DO FORMULÁRIO */
-
+/* ----------------------------------------
+   FOCUS NOS INPUTS DO FORMULÁRIO
+---------------------------------------- */
 input:focus,
-textarea:focus{
+textarea:focus {
     outline: none;
     border: 3px solid #5d1a1a;
     background-color: #fffef5;
 }
 
-/* HOVER NAS IMAGENS */
-
-img.vinho:hover{
+/* ----------------------------------------
+   HOVER NAS IMAGENS
+---------------------------------------- */
+img.vinho:hover,
+img.gal:hover {
     width: 42%;
     transition: all 0.5s ease;
-} 
+}
 
-img.gal:hover{
-    width: 42%;
-    transition: all 0.5s ease;
-} 
-
-/* selection nos textos para selecionar e mudar a cor  */
+/* ----------------------------------------
+   SELEÇÃO DE TEXTO (::selection)
+---------------------------------------- */
 p::selection {
-
     color: #d4af37;
     background: #5d1a1a;
-
 }
-/* adiciona cor aos marcadores da lista  */
-::marker {
 
+/* ----------------------------------------
+   MARCADORES DE LISTA (::marker)
+---------------------------------------- */
+::marker {
     color: #d4af37;
     font-size: 22px;
 }
 
-/* nth-child() nas linhas da tabela */
-
+/* ----------------------------------------
+   NTH-CHILD NAS LINHAS DA TABELA
+---------------------------------------- */
 table tbody tr:nth-child(odd) {
     background-color: rgba(212, 175, 55, 0.5);
 }
@@ -78,19 +84,10 @@ table tbody tr:hover {
     transition: background-color 0.3s ease;
 }
 
-/* ::after nos h2 do main */
-
-main h2::after {
-    content: "";
-    display: block;
-    width: 100px;
-    height: 3px;
-    background: linear-gradient(90deg, #5d1a1a, #d4af37);
-    margin: 12px 0;
-    animation: expandLine 1.2s ease-out;
-    border-radius: 2px;
-}
-
+/* ----------------------------------------
+   ::AFTER NOS TÍTULOS (H2 E H3)
+---------------------------------------- */
+main h2::after,
 main h3::after {
     content: "";
     display: block;
@@ -102,11 +99,13 @@ main h3::after {
     border-radius: 2px;
 }
 
-/* ========================================
-    ANIMAÇÕES CSS
-   ======================================== */
+/* =====================================================
+   ANIMAÇÕES CSS
+   ===================================================== */
 
-/* Animação de entrada suave para o título principal */
+/* ----------------------------------------
+   ANIMAÇÃO "APARECER"
+---------------------------------------- */
 @keyframes aparecer {
     0% { 
         opacity: 0;
@@ -118,36 +117,38 @@ main h3::after {
     }
 }
 
-/* aplicando a animação no h1 do header */
+/* ----------------------------------------
+   ANIMAÇÃO NO H1 DO HEADER
+---------------------------------------- */
 header h1 {
     animation-name: aparecer;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
 }
 
-/* Animação pulsante para botões*/
+/* ----------------------------------------
+   ANIMAÇÃO "PULSAR"
+---------------------------------------- */
 @keyframes pulsar {
-    0% { 
-        transform: scale(1);
-    }
-    50% { 
-        transform: scale(1.05);
-    }
-    100% { 
-        transform: scale(1);
-    }
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
 }
 
-/* Aplicando animação pulsante nos botões ao passar o mouse */
+/* ----------------------------------------
+   ANIMAÇÃO PULSANTE NOS BOTÕES
+---------------------------------------- */
 button:hover {
     animation: pulsar 1s infinite;
 }
 
-/* ========================================
-    TRANSFORMAÇÕES CSS
-   ======================================== */
+/* =====================================================
+   TRANSFORMAÇÕES CSS
+   ===================================================== */
 
-/* TRANSFORMAÇÃO 1: SCALE nas imagens de produtos*/
+/* ----------------------------------------
+   SCALE NAS IMAGENS DE PRODUTOS (.VINHO)
+---------------------------------------- */
 img.vinho {
     transition: transform 0.5s ease;
 }
@@ -156,7 +157,9 @@ img.vinho:hover {
     transform: scale(1.1);
 }
 
-/* TRANSFORMAÇÃO 2: SCALE nas imagens da galeria*/
+/* ----------------------------------------
+   SCALE NAS IMAGENS DA GALERIA (.GAL)
+---------------------------------------- */
 img.gal {
     transition: transform 0.5s ease;
 }
@@ -165,7 +168,9 @@ img.gal:hover {
     transform: scale(1.15);
 }
 
-/* TRANSFORMAÇÃO 3: TRANSLATE nos itens do menu*/
+/* ----------------------------------------
+   TRANSLATE NOS ITENS DO MENU
+---------------------------------------- */
 nav li {
     transition: transform 0.3s ease;
 }
@@ -174,7 +179,9 @@ nav li:hover {
     transform: translateX(10px);
 }
 
-/* TRANSFORMAÇÃO 4: SCALE nos botões*/
+/* ----------------------------------------
+   SCALE NOS BOTÕES
+---------------------------------------- */
 button {
     transition: transform 0.3s ease;
 }
@@ -182,4 +189,3 @@ button {
 button:hover {
     transform: scale(1.05);
 }
-
