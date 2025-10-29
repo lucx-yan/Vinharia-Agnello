@@ -7,6 +7,18 @@ nav a:hover {
     border-radius: 5px;
 }
 
+/* first-child no primeiro item do nav */
+
+nav ul li:first-child {
+    font-weight: bold;
+}
+
+nav ul li:first-child a {
+    color: #5d1a1a;
+    border-left: 4px solid #d4af37;
+    padding-left: 12px;
+}
+
 /* FOCUS NOS INPUTS DO FORMULÁRIO */
 
 input:focus,
@@ -42,7 +54,20 @@ p::selection {
     font-size: 22px;
 }
 
+/* nth-child() nas linhas da tabela */
 
+table tbody tr:nth-child(odd) {
+    background-color: rgba(212, 175, 55, 0.1);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgba(93, 26, 26, 0.05);
+}
+
+table tbody tr:hover {
+    background-color: rgba(212, 175, 55, 0.25);
+    transition: background-color 0.3s ease;
+}
 
 /* ========================================
     ANIMAÇÕES CSS
@@ -125,17 +150,3 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* nth-child() nas linhas da tabela */
-
-table tbody tr:nth-child(odd) {
-    background-color: rgba(212, 175, 55, 0.1);
-}
-
-table tbody tr:nth-child(even) {
-    background-color: rgba(93, 26, 26, 0.05);
-}
-
-table tbody tr:hover {
-    background-color: rgba(212, 175, 55, 0.25);
-    transition: background-color 0.3s ease;
-}
