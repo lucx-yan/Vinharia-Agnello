@@ -291,3 +291,61 @@ nav a:hover, footer a:hover { text-decoration: underline; }
   text-decoration: none;
   border: 2px solid #d4af37; 
 }
+
+/* ARREDONDAMENTO DE BORDAS */
+header {
+    border-radius: 10px;
+}
+
+main {
+    border-radius: 10px;
+}
+
+section img {
+    border-radius: 10px;
+}
+
+nav {
+    border-radius: 10px;
+}
+
+footer {
+    border-radius: 10px;
+}
+
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+form {
+    border-radius: 10px;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.Fiap {
+    border-radius: 5px;
+}
+
+.banner {
+    border-radius: 10px;
+}
