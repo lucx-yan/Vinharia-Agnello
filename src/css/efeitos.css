@@ -43,3 +43,46 @@ p::selection {
     color: #d4af37;
     font-size: 22px;
 }
+
+
+
+/* ========================================
+    ANIMAÇÕES CSS
+   ======================================== */
+
+/* Animação de entrada suave para o título principal */
+@keyframes aparecer {
+    0% { 
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* aplicando a animação no h1 do header */
+header h1 {
+    animation-name: aparecer;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+}
+
+/* Animação pulsante para botões*/
+@keyframes pulsar {
+    0% { 
+        transform: scale(1);
+    }
+    50% { 
+        transform: scale(1.05);
+    }
+    100% { 
+        transform: scale(1);
+    }
+}
+
+/* Aplicando animação pulsante nos botões ao passar o mouse */
+button:hover {
+    animation: pulsar 1s infinite;
+}
