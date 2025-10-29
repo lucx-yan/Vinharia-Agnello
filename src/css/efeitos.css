@@ -78,6 +78,30 @@ table tbody tr:hover {
     transition: background-color 0.3s ease;
 }
 
+/* ::after nos h2 do main */
+
+main h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, #5d1a1a, #d4af37);
+    margin: 12px 0;
+    animation: expandLine 1.2s ease-out;
+    border-radius: 2px;
+}
+
+main h3::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, #5d1a1a, #d4af37);
+    margin: 12px 0;
+    animation: expandLine 1.2s ease-out;
+    border-radius: 2px;
+}
+
 /* ========================================
     ANIMAÇÕES CSS
    ======================================== */
